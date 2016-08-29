@@ -10,11 +10,11 @@ date: 2016-08-29
 
 <head>
   <title>Dashboard</title>
-  <link rel="stylesheet" href="./static/lib/css//bootstrap.min.css">
-  <link rel="stylesheet" href="./static/lib/css/keen-dashboards.css">
-  <link rel="stylesheet" href="./static/lib/css/dc.min.css">
-  <link rel="stylesheet" href="./static/lib/css/leaflet.css">
-  <link rel="stylesheet" href="./static/css/custom.css">
+  <link rel="stylesheet" href="/static/lib/css//bootstrap.min.css">
+  <link rel="stylesheet" href="/static/lib/css/keen-dashboards.css">
+  <link rel="stylesheet" href="/static/lib/css/dc.min.css">
+  <link rel="stylesheet" href="/static/lib/css/leaflet.css">
+  <link rel="stylesheet" href="/static/css/custom.css">
   
 </head>
 <body class="application">
@@ -162,17 +162,17 @@ date: 2016-08-29
   
     
   
-  <script src="./static/lib/js/jquery.min.js"></script>
-  <script src="./static/lib/js/bootstrap.min.js"></script>
-  <script src="./static/lib/js/underscore.min.js"></script>
-  <script src="./static/lib/js/crossfilter.js"></script>
-  <script src="./static/lib/js/d3.min.js"></script>
-  <script src="./static/lib/js/dc.min.js"></script>
-  <script src="./static/lib/js/queue.js"></script>
-  <script src="./static/lib/js/leaflet.js"></script>
-  <script src="./static/lib/js/leaflet-heat.js"></script>
-  <script src="./static/lib/js/keen.min.js"></script>
-  <script src="./static/js/graph.js" type='text/javascript'></script>
+  <script src="/static/lib/js/jquery.min.js"></script>
+  <script src="/static/lib/js/bootstrap.min.js"></script>
+  <script src="/static/lib/js/underscore.min.js"></script>
+  <script src="/static/lib/js/crossfilter.js"></script>
+  <script src="/static/lib/js/d3.min.js"></script>
+  <script src="/static/lib/js/dc.min.js"></script>
+  <script src="/static/lib/js/queue.js"></script>
+  <script src="/static/lib/js/leaflet.js"></script>
+  <script src="/static/lib/js/leaflet-heat.js"></script>
+  <script src="/static/lib/js/keen.min.js"></script>
+  <script src="/static/js/graph.js" type='text/javascript'></script>
 
 
 </body>
