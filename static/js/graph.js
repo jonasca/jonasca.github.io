@@ -1,5 +1,5 @@
 d3.queue()
-    .defer(d3.json, "/data")
+    .defer(d3.json, "/data/dashboard_data.json")
     .await(makeGraphs); // Queue lets data load completely before creating charts
     
 function makeGraphs(error, data) {
