@@ -1,2 +1,3 @@
 name: Jonas de Castro, Data Enthusiast
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
