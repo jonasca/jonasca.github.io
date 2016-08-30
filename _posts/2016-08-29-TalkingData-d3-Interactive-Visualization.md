@@ -4,7 +4,7 @@ title: "Jonas de Castro, Data Enthusiast, TalkingData d3 Interactive Visualizati
 date: 2016-08-29
 ---
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 
 
