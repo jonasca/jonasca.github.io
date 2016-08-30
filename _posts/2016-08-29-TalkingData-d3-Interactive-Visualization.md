@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: post
 title: "Jonas de Castro, Data Enthusiast, TalkingData d3 Interactive Visualization"
 date: 2016-08-29
---- -->
+---
 
 <!DOCTYPE html>
 <html>
