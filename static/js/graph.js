@@ -6,7 +6,8 @@ function makeGraphs(error, data) {
     
     //Clean data
     var records = data;
-        
+    console.log(records[0]);
+    
     records.forEach(function(d) {
         
         d.timestamp = new Date(d.timestamp / 1000000)    
@@ -17,7 +18,7 @@ function makeGraphs(error, data) {
     });
     
     // Good place to check if datatime worked, with console.log(records[0].timestamp); console.log("everything ran");
-    console.log(records[0].timestamp);
+    
  
     //Create a Crossfilter instance, used for multi-dimensional data manipulation in js
 	var ndx = crossfilter(records);
