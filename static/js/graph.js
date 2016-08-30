@@ -18,7 +18,7 @@ function makeGraphs(error, data) {
     
     // Good place to check if datatime worked, with console.log(records[0].timestamp); console.log("everything ran");
     console.log(records[0])
-    
+    console.log("everythin ran");
  
     //Create a Crossfilter instance, used for multi-dimensional data manipulation in js
 	var ndx = crossfilter(records);
@@ -51,8 +51,8 @@ function makeGraphs(error, data) {
 	var phoneBrandChart = dc.rowChart("#phone-brand-row-chart");
 	var locationChart = dc.rowChart("#location-row-chart");
     
-    console.log(records[0].timestamp);
-    console.log("everything ran");
+    //console.log(records[0].timestamp);
+    //console.log("everything ran");
     
     
     numberRecordsND
