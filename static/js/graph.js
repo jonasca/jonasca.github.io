@@ -1,5 +1,5 @@
 d3.queue()
-    .defer(d3.json, "https://jonasca.github.io/dashboad_data.json")
+    .defer(d3.json, {{ site.data.dashboard_data | jsonify }})
     .await(makeGraphs); // Queue lets data load completely before creating charts
     
 function makeGraphs(error, data) {
