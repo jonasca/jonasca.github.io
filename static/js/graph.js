@@ -17,7 +17,7 @@ function makeGraphs(error, data) {
     });
     
     // Good place to check if datatime worked, with console.log(records[0].timestamp); console.log("everything ran");
-    console.log(records[0]);
+    //console.log(records[0]);
     console.log("everythin ran");
  
     //Create a Crossfilter instance, used for multi-dimensional data manipulation in js
