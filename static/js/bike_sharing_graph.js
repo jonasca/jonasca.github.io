@@ -18,6 +18,9 @@ function makeGraphs(error, data) {
 	var ndx = crossfilter(records);
     
 	//Define Dimensions
+	var countDim = ndx.dimension(function(d) { return d['count']; });
+	var casualDim = ndx.dimension(function(d) { return d['casual']; });
+	var registeredDim = ndx.dimension(function(d) { return d['registered']; });
 	var dateDim = ndx.dimension(function(d) { return d["datetime"]; });
 	var yearDim = ndx.dimension(function(d) { return d["year"]; });
 	var monthDim = ndx.dimension(function(d) { return d["month"]; });
@@ -28,13 +31,16 @@ function makeGraphs(error, data) {
 	var weatherDim = ndx.dimension(function(d) { return d["weather"]; });
 	var allDim = ndx.dimension(function(d) {return d;});
 	
-	// Gotta change these guys to match talking data and the above.
 	//Group Data
-	//var numRecordsByDate = dateDim.group();
-	//var genderGroup = genderDim.group();
-	//var ageSegmentGroup = ageSegmentDim.group();
-	//var phoneBrandGroup = phoneBrandDim.group();
-	//var locationGroup = locationdDim.group();
+	var countGroup = countDim.group();
+	var casualGroup = casualDim.group();
+	var registeredGroup = registeredDim.group();
+	var dateGroup = dateDim.group();
+	var yearGroup = yearDim.group();
+	var monthGroup = monthDim.group();
+	var dayGroup = dayDim.group();
+	var weekdayGroup = weekdayDim.group();
+	// Add the others later
 	var all = ndx.groupAll();
     
 };
