@@ -42,5 +42,12 @@ function makeGraphs(error, data) {
 	var weekdayGroup = weekdayDim.group();
 	// Add the others later
 	var all = ndx.groupAll();
+	
+	var countND = dc.numberDisplay("#count-nd");
+	//var timeChart = dc.barChart("#time-chart");
+	var seasonChart = dc.rowChart("#season-row-chart");
+	var weatherChart = dc.rowChart("#weather-row-chart");
+	//var phoneBrandChart = dc.rowChart("#phone-brand-row-chart");
+	var weekdayChart = dc.rowChart("#weekday-row-chart");
     
 };
