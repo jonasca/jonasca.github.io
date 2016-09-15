@@ -8,7 +8,6 @@ date: 2016-09-06
 <!DOCTYPE html>
 <html>
 
-
 <head>
   <title>Dashboard</title>
   <link rel="stylesheet" href="/static/lib/css//bootstrap.min.css">
@@ -18,6 +17,7 @@ date: 2016-09-06
   <link rel="stylesheet" href="/static/css/custom.css">
   
 </head>
+
 <body class="application">
 
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -27,7 +27,63 @@ date: 2016-09-06
       </div>
     </div>
   </div>
-    
+  
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <div class="row">
+
+          <!-- Time Chart --> 
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Number of Events
+              </div>
+              <div class="chart-stage">
+                <div id="time-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Time Chart --> 
+
+            <!-- Age Segment -->
+            <div class="row">
+            <div class="col-sm-12">
+              <div class="chart-wrapper">
+                <div class="chart-title">
+                  Age Segment
+                </div>
+                <div class="chart-stage">
+                  <div id="age-segment-row-chart"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Age Segment -->
+          </div>
+          </div>
+
+
+        </div>
+      </div>
+      
+    <div class="row">
+          <!-- Number of events -->  
+          <div class="col-sm-12"> 
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Number of Events
+              </div>
+              <div class="chart-stage">
+                <div id="count-nd"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Number of events -->  
+        </div>
+        
+  </div>
   
   <script src="/static/lib/js/jquery.min.js"></script>
   <script src="/static/lib/js/bootstrap.min.js"></script>
