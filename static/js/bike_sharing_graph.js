@@ -9,11 +9,6 @@ function makeGraphs(error, data) {
     
     records.forEach(function(d) {
         
-        //d.timestamp = new Date(d.timestamp)    // bc d3.json  is returning date in string format
-        //d["timestamp"].setMinutes(0);
-        //d["timestamp"].setSeconds(0);
-        //d.longitude = +d.longitude;
-        //d.latitude = +d.latitude;
     });
     
     console.log(records[0]);
