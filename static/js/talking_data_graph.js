@@ -42,6 +42,7 @@ function makeGraphs(error, data) {
     //Define values (to be used in charts)
 	var minDate = dateDim.bottom(1)[0]["timestamp"];
 	var maxDate = dateDim.top(1)[0]["timestamp"];
+	console.log(minDate);
 
     //Charts
     var numberRecordsND = dc.numberDisplay("#number-records-nd");
