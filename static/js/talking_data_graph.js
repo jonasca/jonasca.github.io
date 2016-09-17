@@ -42,7 +42,6 @@ function makeGraphs(error, data) {
     //Define values (to be used in charts)
 	var minDate = dateDim.bottom(1)[0]["timestamp"];
 	var maxDate = dateDim.top(1)[0]["timestamp"];
-	console.log(minDate);
 
     //Charts
     var numberRecordsND = dc.numberDisplay("#number-records-nd");
@@ -51,9 +50,6 @@ function makeGraphs(error, data) {
 	var ageSegmentChart = dc.rowChart("#age-segment-row-chart");
 	var phoneBrandChart = dc.rowChart("#phone-brand-row-chart");
 	var locationChart = dc.rowChart("#location-row-chart");
-    
-    console.log(records[0].timestamp);
-    //console.log("everything ran");
     
     
     numberRecordsND
