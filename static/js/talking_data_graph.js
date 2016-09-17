@@ -15,10 +15,6 @@ function makeGraphs(error, data) {
         d.longitude = +d.longitude;
         d.latitude = +d.latitude;
     });
-    
-    console.log(records[0]);
-    // Good place to check if datatime worked, with console.log(records[0].timestamp); console.log("everything ran");
-    
  
     //Create a Crossfilter instance, used for multi-dimensional data manipulation in js
 	var ndx = crossfilter(records);
