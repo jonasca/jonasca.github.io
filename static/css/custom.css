@@ -1,8 +1,23 @@
-#number-records-nd {
-    font-size: 55px;
+/* body {
+    background:black; Check this section later
+} */
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
 }
 
-.dc-chart g.row text {
-    fill: black;
+h2 {
+    text-align:center;
+    font-size:18px;
+}
 
+h2 span {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+h4 {
+    text-align: center;
 }
