@@ -95,8 +95,8 @@ barChart // Fix: Isn't separating b/w casual and registered users
     .on('renderlet', function(barChart) {barChart.selectAll('rect').on("click", function(d) {console.log('click'+d);});}); // Highlights when mouse is hovering, buggy since too many datapoints
     
 monthChart
-    .width(w/2)
-    .height(h/2)
+    .width(w/3)
+    .height(h/3)
     .dimension(monthDim)
     .group(monthGroup)
     .transitionDuration(500)
@@ -114,8 +114,8 @@ yearChart
     .xAxis().ticks(5); // xAxis & ticks does not chain, so should either be last or separate call
     
 seasonChart
-    .width(w/2)
-    .height(h/2)
+    .width(w/3)
+    .height(h/3)
     .dimension(seasonDim)
     .group(seasonGroup)
     .transitionDuration(500)
@@ -124,8 +124,8 @@ seasonChart
     .xAxis().ticks(5); // var xAxisseasonChart = seasonChart.xAxis().ticks(5);
     
 weekdayChart
-    .width(w/2)
-    .height(h/2)
+    .width(w/3)
+    .height(h/3)
     .dimension(weekdayDim)
     .group(weekdayGroup)
     .transitionDuration(500)
@@ -133,8 +133,8 @@ weekdayChart
     .renderLabel(true);
     
  weatherChart
-    .width(w/2)
-    .height(h/2)
+    .width(w/3)
+    .height(h/3)
     .dimension(weatherDim)
     .group(weatherGroup)
     .transitionDuration(500)
